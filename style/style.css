@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --font: "Outfit", sans-serif;
+    --color-white: hsl(0, 0%, 100%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-900: hsl(218, 44%, 22%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.attribution a:hover{
+    text-decoration: underline;
+    color: var(--color-slate-500);
+}
+
+main{
+    background-color: var(--color-white);
+    position: relative;
+    height: 100vh;
+}
+
+div.container{
+    background-color: var(--color-slate-300);
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0px auto;
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 40px 1px rgba(0, 0, 0, 0.329);
+}
+
+div.content{
+    background-color: var(--color-white);
+    width: 1440px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 375px;
+}
+
+.content > h1{
+    font-weight: 700;
+    color: var(--color-slate-900);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content > p{
+    font-weight: 400;
+    color: var(--color-slate-500);
+    margin: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content > img{
+    display: block;
+    margin: auto;
+    width: 375px;
+    border-radius: 10px;
+}
