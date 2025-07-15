@@ -30,9 +30,10 @@
 }
 
 main{
-    background-color: var(--color-white);
+    background-color: var(--color-slate-300);
     position: relative;
     height: 100vh;
+    min-width: 100vh;
 }
 
 div.container{
@@ -65,6 +66,7 @@ div.content{
 
 .content > p{
     font-weight: 400;
+    font-size: 15px;
     color: var(--color-slate-500);
     margin: 0px;
     text-align: center;
