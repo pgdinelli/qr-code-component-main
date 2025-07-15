@@ -30,7 +30,7 @@
 }
 
 main{
-    background-color: var(--color-slate-300);
+    background-color: var(--color-slate-white);
     position: relative;
     height: 100vh;
     min-width: 100vh;
