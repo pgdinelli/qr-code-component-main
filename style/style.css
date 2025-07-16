@@ -9,71 +9,80 @@
     --color-slate-900: hsl(218, 44%, 22%);
 }
 
+html p{
+    font-size: 15px;
+}
+
+html h1{
+    font-size: 32px;
+}
+
 *{
     margin: 0px;
     padding: 0px;
     font-family: var(--font);
 }
 
-.attribution { 
-    font-size: 11px; text-align: center; 
+footer {
+    background-color: var(--color-slate-500);
+    color: var(--color-white);
+    font-size: 11px;
+    text-align: center;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 2px;
 }
-.attribution a { 
+
+footer a { 
     color: hsl(228, 45%, 44%);
     text-decoration: none;
     font-weight: 700;
 }
 
-.attribution a:hover{
+footer a:hover{
     text-decoration: underline;
-    color: var(--color-slate-500);
+    color: var(--color-slate-900);
 }
 
 main{
-    background-color: var(--color-slate-white);
-    position: relative;
-    height: 100vh;
-    min-width: 100vh;
+    background-color: var(--color-slate-300);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 div.container{
-    background-color: var(--color-slate-300);
-    max-width: 1440px;
-    min-width: 375px;
-    margin: 0px auto;
-    padding: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 1px 1px 40px 1px rgba(0, 0, 0, 0.329);
-}
-
-div.content{
     background-color: var(--color-white);
     width: 1440px;
+    margin: auto;
     border-radius: 10px;
     padding: 30px;
     width: 375px;
+    box-shadow: 1px 1px 25px 0px black;
 }
 
-.content > h1{
+.container > h1{
     font-weight: 700;
     color: var(--color-slate-900);
     text-align: center;
     margin-bottom: 10px;
+    font-size: 2rem;
 }
 
-.content > p{
+.container > p{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1rem;
     color: var(--color-slate-500);
     margin: 0px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-.content > img{
+.container > img{
     display: block;
     margin: auto;
     width: 375px;
