@@ -24,28 +24,6 @@ html h1{
     box-sizing: border-box;
 }
 
-footer {
-    background-color: var(--color-slate-500);
-    color: var(--color-white);
-    font-size: 12px;
-    text-align: center;
-    margin: 0 auto;
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    padding: 2px;
-}
-
-footer a { 
-    color: hsl(228, 45%, 44%);
-    text-decoration: none;
-    font-weight: 700;
-}
-
-footer a:hover{
-    text-decoration: underline;
-    color: var(--color-slate-900);
-}
 
 body{
     min-height: 100vh;
@@ -95,4 +73,26 @@ div.container{
     margin: auto;
     width: 320px;
     border-radius: 10px;
+}
+
+footer {
+    background-color: var(--color-slate-500);
+    color: var(--color-white);
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100vw;
+    padding: 2px;
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--color-slate-900);
 }
